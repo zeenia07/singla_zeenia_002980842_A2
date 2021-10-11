@@ -1,0 +1,30 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package model;
+
+/**
+ *
+ * @author Dell
+ */
+public class Business {
+    
+    BrandDirectory brandDirectory;
+    
+    public Business(){
+        brandDirectory = new BrandDirectory();
+    }
+
+    public BrandDirectory getBrandDirectory() {
+        return brandDirectory;
+    }
+
+    public void setBrandDirectory(BrandDirectory brandDirectory) {
+        this.brandDirectory = brandDirectory;
+    }
+    
+    
+}
+
